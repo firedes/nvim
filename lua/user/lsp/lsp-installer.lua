@@ -8,7 +8,7 @@ local servers = {
   -- "cssmodules_ls",
   -- "emmet_ls",
   -- "html",
-  -- "jdtls",
+  "jdtls",
   "jsonls",
   -- "solc",
   "sumneko_lua",
@@ -21,7 +21,7 @@ local servers = {
 
 local settings = {
   ensure_installed = servers,
-  -- automatic_installation = false,
+  automatic_installation = false,
   ui = {
     icons = {
       -- server_installed = "◍",
