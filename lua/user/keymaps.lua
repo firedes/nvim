@@ -22,8 +22,8 @@ keymap("n", "<C-Down>", ":resize +2<CR>", opts)
 keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
 keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 -- Navigate buffers
-keymap("n", "<A-l>", ":bnext<CR>", opts)
-keymap("n", "<A-h>", ":bprevious<CR>", opts)
+keymap("n", "<A-l>", ":BufferLineCycleNext<CR>", opts)
+keymap("n", "<A-h>", ":BufferLineCyclePrev<CR>", opts)
 -- Move text up and down
 keymap("n", "<A-j>", "<Esc>:m .+1<CR>==", opts)
 keymap("n", "<A-k>", "<Esc>:m .-2<CR>==", opts)
@@ -34,8 +34,8 @@ keymap("n", "<CR>", "<Esc>i<CR><Esc>", opts)
 
 -- Insert --
 -- Navigate buffers
-keymap("i", "<A-l>", "<cmd>bnext<CR><Esc>", opts)
-keymap("i", "<A-h>", "<cmd>bprevious<CR><Esc>", opts)
+keymap("i", "<A-l>", "<cmd>BufferLineCycleNext<CR><Esc>", opts)
+keymap("i", "<A-h>", "<cmd>BufferLineCyclePrev<CR><Esc>", opts)
 -- Move text up and down
 keymap("i", "<A-j>", "<Esc>:m .+1<CR>==gi", opts)
 keymap("i", "<A-k>", "<Esc>:m .-2<CR>==gi", opts)

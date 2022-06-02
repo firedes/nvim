@@ -92,6 +92,7 @@ local mappings = {
     c = { "<cmd>BufferLinePickClose<cr>", "Pick which buffer to close", },
     h = { "<cmd>BufferLineCloseLeft<cr>", "Close all to the left" },
     l = { "<cmd>BufferLineCloseRight<cr>", "Close all to the right", },
+    o = { "<cmd>BufferLineCloseRight<cr><cmd>BufferLineCloseLeft<cr>", "Close others", },
     D = { "<cmd>BufferLineSortByDirectory<cr>", "Sort by directory", },
     L = { "<cmd>BufferLineSortByExtension<cr>", "Sort by language", },
     j = { "<cmd>BufferLinePick<cr>", "Jump" },
