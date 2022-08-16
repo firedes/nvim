@@ -7,7 +7,7 @@ local ft_to_parser = require "nvim-treesitter.parsers".filetype_to_parsername
 ft_to_parser.motoko = "typescript"
 
 configs.setup({
-  ensure_installed = {"lua", "scss", "vue", "javascript", "java", "bash", "yaml", "json"}, -- one of "all" or a list of languages
+  ensure_installed = {"lua", "scss", "vue", "javascript", "java", "bash", "yaml", "json", "python"}, -- one of "all" or a list of languages
   ignore_install = {}, -- List of parsers to ignore installing
   highlight = {
     -- use_languagetree = true,

@@ -105,9 +105,6 @@ return packer.startup(function(use)
   -- use "github/copilot.vim"
   use "RRethy/vim-illuminate"
   use "folke/todo-comments.nvim"
-  -- Java
-  -- use "mfussenegger/nvim-jdtls"
-
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"
